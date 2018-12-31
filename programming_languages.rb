@@ -45,8 +45,7 @@ def type(data_structure, language)
   return_string = ""
   data_structure.each do |key, value|
     value.each do |lang, lang_type|
-      if lang == language
-      binding.pry
+      return_string = lang_type.values.join if lang == language
     end
   end
 end
