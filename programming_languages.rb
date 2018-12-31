@@ -49,6 +49,7 @@ def type(data_structure, language)
     end
   end
 end
+binding.pry
 
 type(data_structure, :ruby)
 
