@@ -42,6 +42,7 @@ def languages_array(data_structure)
 end
 
 def style(data_structure, language)
+  return_array = []
   data_structure.each do |key, value|
     binding.pry
   end
