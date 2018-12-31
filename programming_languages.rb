@@ -31,7 +31,7 @@ def reformat_languages(data_structure)
   return_hash = {}
   languages_array(data_structure).each do |language|
     return_hash[language] = 
-    {:type => type(data_structure, language), :style => output_style_a(data_structure, language)}
+    {:type => output_type_s(data_structure, language), :style => output_style_a(data_structure, language)}
   end
   return_hash
 end
