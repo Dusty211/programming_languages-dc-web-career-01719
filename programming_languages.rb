@@ -44,7 +44,9 @@ end
 def type(data_structure, language)
   return_string = ""
   data_structure.each do |key, value|
-    binding.pry
+    value.each do |lang, lang_type|
+      binding.pry
+    end
   end
 end
 
