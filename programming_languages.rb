@@ -33,26 +33,3 @@ def reformat_languages(data_structure)
   end
   return_hash
 end
-
-#puts build_hash_root(data_structure)
-
-#binding.pry
-
-#puts languages_array(data_structure)
-
-
-=begin
-def pry_funk(languages)
-  prog_langs_array = []
-  languages.each do |key, value|
-    prog_langs_array << value.keys
-  end
-  prog_langs_array.flatten.uniq
-end
-
-puts pry_funk(languages)
-
-def reformat_languages(languages)
-  # your code here
-end
-=end
