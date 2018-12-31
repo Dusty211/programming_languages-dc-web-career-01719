@@ -39,6 +39,7 @@ def pry_funk
   end
 end
 
+pry_funk
 
 def reformat_languages(languages)
   # your code here
