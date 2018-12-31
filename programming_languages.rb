@@ -63,7 +63,8 @@ end
 def build_hash_root(data_structure)
   return_hash = {}
   languages_array(data_structure).each do |language|
-    return_hash[language] = {:type => type(data_structure, language), :style => style(data_structure, language)}
+    return_hash[language] = 
+    {:type => type(data_structure, language), :style => style(data_structure, language)}
   end
   return_hash
 end
