@@ -42,7 +42,7 @@ def languages_array(data_structure)
 end
 
 def build_hash_root(data_structure)
-  
+  languages_array(data_structure).each {|key| testhash[key] = {}}
 end
 
 binding.pry
