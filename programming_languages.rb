@@ -51,7 +51,9 @@ end
 
 def build_hash_root(data_structure)
   return_hash = {}
-  languages_array(data_structure).each {|language| return_hash[language] = {}}
+  languages_array(data_structure).each do |language|
+    return_hash[language] = {:style => style(data_structure, language)}
+  end
   return_hash
 end
 
