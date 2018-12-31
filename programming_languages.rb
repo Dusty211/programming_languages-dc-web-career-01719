@@ -50,9 +50,7 @@ def type(data_structure, language)
   end
   return_string
 end
-binding.pry
 
-type(data_structure, :ruby)
 
 def languages_array(data_structure)
   lang_array = []
