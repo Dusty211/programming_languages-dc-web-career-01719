@@ -33,8 +33,12 @@ languages = {
   }
 }
 
+def pry_funk
+  languages.each do |key, value|
+    binding.pry
+  end
+end
 
-binding.pry
 
 def reformat_languages(languages)
   # your code here
