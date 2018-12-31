@@ -41,13 +41,15 @@ def languages_array(data_structure)
   lang_array.flatten.uniq
 end
 
-def style(key)
-  
+def style(data_structure, language)
+  binding.pry
 end
+
+style(data_structure, :javascript)
 
 def build_hash_root(data_structure)
   return_hash = {}
-  languages_array(data_structure).each {|key| return_hash[key] = {}}
+  languages_array(data_structure).each {|language| return_hash[language] = {}}
   return_hash
 end
 
