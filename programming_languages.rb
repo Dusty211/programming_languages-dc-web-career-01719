@@ -1,7 +1,7 @@
 
 require 'pry'
 
-languages = {
+data_structure = {
   :oo => {
     :ruby => {
       :type => "interpreted"
@@ -33,7 +33,13 @@ languages = {
   }
 }
 
-
+def langs_a(languages)
+  prog_langs_array = []
+  languages.each do |key, value|
+    prog_langs_array << value.keys
+  end
+  prog_langs_array.flatten.uniq
+end
 
 
 
