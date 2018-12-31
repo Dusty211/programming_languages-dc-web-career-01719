@@ -1,37 +1,4 @@
 
-require 'pry'
-
-data_structure = {
-  :oo => {
-    :ruby => {
-      :type => "interpreted"
-    },
-    :javascript => {
-      :type => "interpreted"
-    },
-    :python => {
-      :type => "interpreted"
-    },
-    :java => {
-      :type => "compiled"
-    }
-  },
-  :functional => {
-    :clojure => {
-      :type => "compiled"
-    },
-    :erlang => {
-      :type => "compiled"
-    },
-    :scala => {
-      :type => "compiled"
-    },
-    :javascript => {
-      :type => "interpreted"
-    }
- 
-  }
-}
 
 def style(data_structure, language)
   return_array = []
