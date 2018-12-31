@@ -33,12 +33,12 @@ data_structure = {
   }
 }
 
-def langs_a(languages)
-  prog_langs_array = []
-  languages.each do |key, value|
-    prog_langs_array << value.keys
+def languages_array(data_structure)
+  lang_array = []
+  data_structure.each do |key, value|
+    lang_array << value.keys
   end
-  prog_langs_array.flatten.uniq
+  lang_array.flatten.uniq
 end
 
 
