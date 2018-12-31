@@ -41,8 +41,8 @@ def style(data_structure, language)
   return_array
 end
 
-def type(language)
-  
+def type(data_structure, language)
+  return_string = ""
 end
 
 def languages_array(data_structure)
