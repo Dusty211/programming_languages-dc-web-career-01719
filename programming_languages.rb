@@ -33,20 +33,20 @@ data_structure = {
   }
 }
 
-def languages_array(data_structure)
-  lang_array = []
-  data_structure.each do |key, value|
-    lang_array << value.keys
-  end
-  lang_array.flatten.uniq
-end
-
 def style(data_structure, language)
   return_array = []
   data_structure.each do |key, value|
     return_array << key if value.keys.any? {|key| key == language} 
   end
   return_array
+end
+
+def languages_array(data_structure)
+  lang_array = []
+  data_structure.each do |key, value|
+    lang_array << value.keys
+  end
+  lang_array.flatten.uniq
 end
 
 def build_hash_root(data_structure)
