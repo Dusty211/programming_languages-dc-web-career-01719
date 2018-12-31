@@ -8,7 +8,7 @@ def output_style_a(data_structure, language)
   return_array
 end
 
-def type(data_structure, language)
+def output_type_s(data_structure, language)
   return_string = ""
   data_structure.each do |key, value|
     value.each do |lang, lang_type|
