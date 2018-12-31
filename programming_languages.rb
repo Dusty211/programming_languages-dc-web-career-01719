@@ -47,9 +47,9 @@ def build_hash_root(data_structure)
   return_hash
 end
 
-binding.pry
+#binding.pry
 
-puts languages_array(data_structure)
+#puts languages_array(data_structure)
 
 
 =begin
