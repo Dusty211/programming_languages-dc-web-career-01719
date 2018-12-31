@@ -60,7 +60,7 @@ def languages_array(data_structure)
   lang_array.flatten.uniq
 end
 
-def build_hash_root(data_structure)
+def reformat_languages(data_structure)
   return_hash = {}
   languages_array(data_structure).each do |language|
     return_hash[language] = 
