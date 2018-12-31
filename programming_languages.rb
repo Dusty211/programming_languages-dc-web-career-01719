@@ -48,6 +48,7 @@ def type(data_structure, language)
       return_string = lang_type.values.join if lang == language
     end
   end
+  return_string
 end
 binding.pry
 
