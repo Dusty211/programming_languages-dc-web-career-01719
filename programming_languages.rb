@@ -48,6 +48,8 @@ def type(data_structure, language)
   end
 end
 
+type(data_structure, :ruby)
+
 def languages_array(data_structure)
   lang_array = []
   data_structure.each do |key, value|
