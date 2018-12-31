@@ -41,8 +41,9 @@ def languages_array(data_structure)
   lang_array.flatten.uniq
 end
 
+puts languages_array(data_structure)
 
-
+=begin
 def pry_funk(languages)
   prog_langs_array = []
   languages.each do |key, value|
@@ -56,3 +57,4 @@ puts pry_funk(languages)
 def reformat_languages(languages)
   # your code here
 end
+=end
