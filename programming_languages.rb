@@ -41,6 +41,10 @@ def languages_array(data_structure)
   lang_array.flatten.uniq
 end
 
+def build_hash_root(data_structure)
+  
+end
+
 binding.pry
 
 puts languages_array(data_structure)
