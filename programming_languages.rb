@@ -71,7 +71,7 @@ end
 
 #puts build_hash_root(data_structure)
 
-#binding.pry
+binding.pry
 
 #puts languages_array(data_structure)
 
