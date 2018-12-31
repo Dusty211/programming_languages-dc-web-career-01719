@@ -57,7 +57,7 @@ def build_hash_root(data_structure)
   return_hash
 end
 
-build_hash_root(data_structure)
+puts build_hash_root(data_structure)
 
 #binding.pry
 
