@@ -1,6 +1,6 @@
 
 
-def style(data_structure, language)
+def output_style_a(data_structure, language)
   return_array = []
   data_structure.each do |key, value|
     return_array << key if value.keys.any? {|key| key == language} 
