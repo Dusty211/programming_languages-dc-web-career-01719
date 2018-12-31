@@ -18,7 +18,6 @@ def output_type_s(data_structure, language)
   return_string
 end
 
-
 def languages_array(data_structure)
   lang_array = []
   data_structure.each do |key, value|
