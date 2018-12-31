@@ -34,9 +34,12 @@ languages = {
 }
 
 def pry_funk(languages)
+  prog_langs_array = []
   languages.each do |key, value|
+    prog_langs_array << value.keys
     binding.pry
   end
+  prog_langs_array.flatten.uniq
 end
 
 pry_funk(languages)
