@@ -41,6 +41,8 @@ def languages_array(data_structure)
   lang_array.flatten.uniq
 end
 
+binding.pry
+
 puts languages_array(data_structure)
 
 =begin
