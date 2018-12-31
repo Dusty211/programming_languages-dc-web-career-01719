@@ -43,6 +43,9 @@ end
 
 def type(data_structure, language)
   return_string = ""
+  data_structure.each do |key, value|
+    
+  end
 end
 
 def languages_array(data_structure)
