@@ -1,5 +1,4 @@
 
-
 def output_style_a(data_structure, language)
   return_array = []
   data_structure.each do |key, value|
