@@ -44,14 +44,13 @@ end
 def style(data_structure, language)
   return_array = []
   data_structure.each do |key, value|
-    binding.pry
-    if 
-    #return_array << 
+    #binding.pry
+    return_array << key if value.keys.any? {|key| key == language} 
   end
   return_array
 end
 
-style(data_structure, :javascript)
+puts style(data_structure, :javascript)
 
 def build_hash_root(data_structure)
   return_hash = {}
