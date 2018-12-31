@@ -18,7 +18,7 @@ def output_type_s(data_structure, language)
   return_string
 end
 
-def languages_array(data_structure)
+def build_languages_array(data_structure)
   lang_array = []
   data_structure.each do |key, value|
     lang_array << value.keys
