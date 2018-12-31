@@ -46,6 +46,7 @@ def style(data_structure, language)
   data_structure.each do |key, value|
     binding.pry
   end
+  return_array
 end
 
 style(data_structure, :javascript)
